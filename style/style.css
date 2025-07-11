@@ -19,6 +19,7 @@ a {
   border: none;
   cursor: pointer;
   height: 55px;
+  font-weight: bold;
 }
 
 .primary-button:hover {
@@ -48,7 +49,10 @@ a {
 body{
   background-color: #f5f8ff;
 }
-
+.form-placeholder{
+  font-size: 20px;
+  font-weight: normal;
+}
 /*Shared style*/
 
 .head {
@@ -131,7 +135,7 @@ body{
   /* padding: 50px 142px; */
 }
 .user-title {
-  font-size: 38px;
+  font-size: 42px;
   font-weight: bold;
   padding-top: 50px;
 }
@@ -216,6 +220,7 @@ body{
 .focus-title {
   margin-top: 127px;
   font-size: 50px;
+  font-weight: bold;
   padding-bottom: 15px;
 }
 .quort {
@@ -234,11 +239,11 @@ body{
 
 /*form part*/
 
-.from-con {
+.form-con {
   display: flex;
   justify-content: space-between;
-  padding-left: 190px;
-  padding-right: 190px;
+  padding-left: 250px;
+  padding-right: 250px;
   padding-top: 170px;
   padding-bottom: 80px;
   align-items: center;
@@ -249,9 +254,14 @@ body{
   font-size: 97px;
   /* padding-left: 15px; */
   width: 528px;
+  
+}
+.form-label{
+  font-style: 18px;
+  font-weight: 500;
 }
 
-.from-main input[type="email"],
+.form-main input[type="email"],
 input[type="text"] {
   width: 487px;
   height: 60px;
@@ -312,13 +322,28 @@ input[type="text"] {
   
 }
 .footer-link ul li a {
+  padding: 10px;
   color: #8987a1;
+  height: 55px;
+  width: 80px;
+}
+.footer-link ul li a:hover {
+  height: 55px;
+  width: 80px;
+  background-color: #4d47ff38;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 10px;
+  color: #000000;
+  transition: all .1s ease-in-out;
   
 }
 
+
 .copy-right{
   background: #ffffff;
-  color: #8987a180;
+  color: #8987a1c1;
   margin-bottom: 5px;
 }
 
