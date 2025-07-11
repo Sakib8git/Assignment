@@ -143,3 +143,58 @@ a {
     padding-left: 20px;
     color: #9d9faf;
 }
+/*user comment part*/
+.user-say{
+  height: 342px;
+  width: 1140px;
+  
+  margin: 0 auto;
+}
+.user-comment-con{
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+.user-comment{
+  width: 366px;
+  /* height: 245px; */
+  /* background-color: #fafbff; */
+  /* background-color: #d6002b; */
+  padding: 24px;
+  margin-top: 50px;
+  margin-bottom: 137px;
+  border-radius: 14px;
+}
+
+.icon-star{
+  margin-bottom: 24px;
+  margin-right: 4px;
+}
+.loved-designer{
+  font-size:  22px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.user-text{
+  font-size: 18px;
+  font-weight: lighter;
+  width: 319px;
+  margin-bottom: 24px;
+}
+.user-info{
+  display: flex;
+  align-items: center;
+}
+.user-img{
+  border-radius: 100Px;
+  margin-right: 12px;
+}
+.reviewer{
+  font-style: 20px;
+  font-weight: lighter;
+}
+.date{
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.511);
+}
+
